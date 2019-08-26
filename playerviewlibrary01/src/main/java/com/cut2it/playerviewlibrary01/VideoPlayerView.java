@@ -17,4 +17,6 @@ public class Cut2itPlayerView extends PlayerView {
     public Cut2itPlayerView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
+
+
 }
