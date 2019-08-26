@@ -7,12 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9a81553-e650-4f12-a38f-0a1b41543665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../playerviewlibrary01/src/main/java/com/cut2it/playerviewlibrary01/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../playerviewlibrary01/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../playerviewlibrary01/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../playerviewlibrary01/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playerviewlibrary01/src/main/java/com/cut2it/playerviewlibrary01/Cut2itPlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../playerviewlibrary01/src/main/java/com/cut2it/playerviewlibrary01/VideoPlayerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playerviewlibrary01/src/main/java/com/cut2it/playerviewlibrary01/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../playerviewlibrary01/src/main/java/com/cut2it/playerviewlibrary01/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playerviewlibrary01/src/main/java/com/cut2it/playerviewlibrary01/VideoPlayerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../playerviewlibrary01/src/main/java/com/cut2it/playerviewlibrary01/VideoPlayerView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../playerviewlibrary01/src/main/java/com/cut2it/playerviewlibrary01/avcommunication/AVCommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../playerviewlibrary01/src/main/java/com/cut2it/playerviewlibrary01/avcommunication/AVCommunication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../playerviewlibrary01/src/main/java/com/cut2it/playerviewlibrary01/avcommunication/CustomView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../playerviewlibrary01/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../playerviewlibrary01/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../playerviewlibrary01/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../playerviewlibrary01/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -292,7 +292,7 @@
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Logcat" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3293718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3293718" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.3293718" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="6" />
