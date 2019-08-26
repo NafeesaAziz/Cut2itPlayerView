@@ -5,18 +5,17 @@ import android.util.AttributeSet;
 
 import com.google.android.exoplayer2.ui.PlayerView;
 
-public class Cut2itPlayerView extends PlayerView {
-    public Cut2itPlayerView(Context context) {
+public class VideoPlayerView extends PlayerView {
+    public VideoPlayerView(Context context) {
         super(context);
     }
 
-    public Cut2itPlayerView(Context context, AttributeSet attrs) {
+    public VideoPlayerView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public Cut2itPlayerView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public VideoPlayerView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
-
 
 }

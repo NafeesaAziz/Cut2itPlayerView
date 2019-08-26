@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.cut2it.playerviewlibrary01.rangeseekbar.RangeSeekBar;
 import com.google.android.exoplayer2.ExoPlaybackException;
 import com.google.android.exoplayer2.ExoPlayerFactory;
 import com.google.android.exoplayer2.PlaybackParameters;
@@ -42,7 +43,7 @@ public class AVCommunication {
     private long pauseTime = 0;
     private SeekBar mSeekbar;
     private Runnable mRunnable;
-  //  private RangeSeekBar mRangeSeekbar;
+    private RangeSeekBar mRangeSeekbar;
     private PlayerControlView controller;
 
     private int preMin = -1;
@@ -393,35 +394,35 @@ public class AVCommunication {
         });
     }
 
-//    public void setRangeSeekbar(RangeSeekBar rangeSeekbar) {
-//
-//        this.mRangeSeekbar = rangeSeekbar;
-//        mRangeSeekbar.setNotifyWhileDragging(true);
-//
-//        //  mRangeSeekbar.setRangeValues(0, simpleExoPlayer.getDuration() /1000);
-//
-//        mRangeSeekbar.setOnRangeSeekBarChangeListener(
-//                (bar, minValue, maxValue) ->
-//                {
-//                    simpleExoPlayer.seekTo((int) minValue * 1000);
-//
-//                    int min = ((int) minValue);
-//                    int max = ((int) maxValue);
-//
-//                    if (min != preMin) {
-//                        mRangeSeekbar.setSelectedMinValue(min);
-//                    } else if (max != preMax) {
-//                        mRangeSeekbar.setSelectedMaxValue(max);
-//                    } else {
-//                        preMin = min;
-//                        preMax = max;
-//                    }
-//
-//                    Log.e("asdsadsad", "Min :" + minValue + " Max :" + maxValue);
-//
-//                });
-//
-//    }
+    public void setRangeSeekbar(RangeSeekBar rangeSeekbar) {
+
+        this.mRangeSeekbar = rangeSeekbar;
+        mRangeSeekbar.setNotifyWhileDragging(true);
+
+        //  mRangeSeekbar.setRangeValues(0, simpleExoPlayer.getDuration() /1000);
+
+        mRangeSeekbar.setOnRangeSeekBarChangeListener(
+                (bar, minValue, maxValue) ->
+                {
+                    simpleExoPlayer.seekTo((int) minValue * 1000);
+
+                    int min = ((int) minValue);
+                    int max = ((int) maxValue);
+
+                    if (min != preMin) {
+                        mRangeSeekbar.setSelectedMinValue(min);
+                    } else if (max != preMax) {
+                        mRangeSeekbar.setSelectedMaxValue(max);
+                    } else {
+                        preMin = min;
+                        preMax = max;
+                    }
+
+                    Log.d("FUCK:", "Min :" + minValue + " Max :" + maxValue);
+
+                });
+
+    }
 
     private void displayCurrentTime() {
         String formattedTime = null;
@@ -440,9 +441,9 @@ public class AVCommunication {
 
     private void displayVideoDuration() {
         String formattedTime = null;
-//        if (mRangeSeekbar != null) {
-//            mRangeSeekbar.setRangeValues(0, simpleExoPlayer.getDuration() / 1000);
-//        }
+        if (mRangeSeekbar != null) {
+            mRangeSeekbar.setRangeValues(0, simpleExoPlayer.getDuration() / 1000);
+        }
         formattedTime = formatTime((int) simpleExoPlayer.getDuration());
         if (mPlayTimeDurationTextView != null) {
             mPlayTimeDurationTextView.setText(formattedTime);
